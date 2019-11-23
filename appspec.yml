@@ -18,6 +18,5 @@ hooks:
 phases:
   install:
     runtime-versions:
-      java: openjdk8
-      android: 28
-      ruby: "$MY_RUBY_VAR"
+      php: 7.3
+
