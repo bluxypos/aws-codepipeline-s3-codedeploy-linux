@@ -1,7 +1,7 @@
 version: 0.2
 os: linux
- runtime-versions: php:7.3
 files:
+ runtime-versions: php:7.3
   - source: /index.html
     destination: /var/www/html/
 hooks:
