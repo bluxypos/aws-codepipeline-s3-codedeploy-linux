@@ -1,23 +1,15 @@
-version: 0.0
+version: 0.1
 os: linux
 files:
   - source: /
     destination: /var/www/html/
     
-hooks:
-  BeforeInstall:
-    - location: scripts/install_dependencies
-      timeout: 300
-      runas: root
-    - location: scripts/start_server
-      timeout: 300
-      runas: root
-  ApplicationStop:
-    - location: scripts/stop_server
-      timeout: 300
-      runas: root
 phases:
-  install:
-    runtime-versions:
-      php: 7.3
+  build:
+    commands:
+      - echo Nothing to do yet
+artifacts:
+  files:
+    - index.html
+
 
