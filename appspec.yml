@@ -11,5 +11,6 @@ phases:
 artifacts:
   files:
     - index.html
-
+runtime-versions:
+      php: 7.3
 
