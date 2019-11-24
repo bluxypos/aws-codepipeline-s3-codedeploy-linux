@@ -7,7 +7,6 @@ files:
       php: 7.3
 phases:
   build:
-    commands:
        runas: ubuntu-latest
 artifacts:
   files:
