@@ -3,7 +3,7 @@ os: linux
 files:
  phases:
   build:
-       runas: ubuntu-latest
+      - 'test'
     runtime-versions: 
       php: 7.3
 artifacts:
