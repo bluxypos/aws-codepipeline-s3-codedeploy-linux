@@ -1,13 +1,13 @@
 version: 0.1
 os: linux
 files:
+ phases:
+  build:
+       runas: ubuntu-latest
   phases:
   install:
     runtime-versions: 
       php: 7.3
-phases:
-  build:
-       runas: ubuntu-latest
 artifacts:
   files:
   - index.html
