@@ -3,7 +3,6 @@ os: linux
 files:
   - source: /
     destination: /var/www/html
-  - overwrite: true
   phases:
   install:
     runtime-versions: 
@@ -11,9 +10,9 @@ files:
 phases:
   build:
     commands:
-      - echo Nothing to do yet
+  - echo Nothing to do yet
 artifacts:
   files:
-    - index.html
+  - index.html
   
 
