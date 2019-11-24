@@ -1,8 +1,9 @@
 version: 0.1
 os: linux
 files:
-   - source: /
-    destination: /var/www/html/
+  - source: /
+    destination: /var/www/html
+    overwrite: true
   phases:
   install:
     runtime-versions: 
