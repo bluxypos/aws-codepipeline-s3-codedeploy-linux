@@ -4,8 +4,6 @@ files:
  phases:
   build:
        runas: ubuntu-latest
-  phases:
-  install:
     runtime-versions: 
       php: 7.3
 artifacts:
